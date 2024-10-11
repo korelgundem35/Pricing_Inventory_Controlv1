@@ -74,8 +74,8 @@ To overcome these challenges, this project leverages historical data consisting 
 
 The efficacy of the proposed algorithms is validated through numerical experiments that demonstrate the performance of the estimated optimal policies under various demand conditions. Our results show that both C-FQI and PC-FQI can effectively learn pricing and inventory control policies, with PC-FQI providing robustness in scenarios with limited data coverage.
 
-<img src=plots_paper/fqi.png alt=Scenario 1: uniform behaviour policy width=600/>
-<img src=plots_paper/pessimism.png alt=Scenario 2: optimal behaviour policy width=600/>
+<img src="plots_paper/fqi.png" alt="Scenario 1: uniform behaviour policy" width="600"/>
+<img src="plots_paper/pessimism.png" "alt=Scenario 2: optimal behaviour policy" width="600"/>
 
 ## Citation
 
