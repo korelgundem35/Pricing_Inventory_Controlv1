@@ -74,8 +74,20 @@ To overcome these challenges, this project leverages historical data consisting 
 
 The efficacy of the proposed algorithms is validated through numerical experiments that demonstrate the performance of the estimated optimal policies under various demand conditions. Our results show that both C-FQI and PC-FQI can effectively learn pricing and inventory control policies, with PC-FQI providing robustness in scenarios with limited data coverage.
 
-<img src="plots_paper/fqi.png" alt="Scenario 1: uniform behaviour policy" width="600"/>
-<img src="plots_paper/pessimism.png" "alt=Scenario 2: optimal behaviour policy" width="600"/>
+<p align="center">
+  <img src="plots_paper/fqi.png" alt="(a) Results under a uniform behavior policy" width="45%" />
+  <img src="plots_paper/pessimism.png" alt="(b) Results under the optimal behavior policy" width="45%" />
+</p>
+
+<p align="center">
+  <strong>(a)</strong> Results under a uniform behavior policy &nbsp;&nbsp;&nbsp;&nbsp;
+  <strong>(b)</strong> Results under the optimal behavior policy
+</p>
+
+<p align="center">
+  <strong>Figure:</strong> Convergence of the performances of the proposed algorithms to the optimal policy as the sample size increases: (a) Results under a uniform behavior policy; (b) Results under the optimal behavior policy. The performance of the oracle policy, $\pi^{\ast}_{\text{oracle}}$, and the optimal policy, $\pi^{\ast}$ are denoted by the green and dark blue horizontal lines, respectively. The performance of C-FQI, PC-FQI, and the fusion of these two algorithms are denoted by light blue, orange, and light green lines, respectively. The error bars represent 0.95 confidence intervals.
+</p>
+
 
 ## Citation
 
